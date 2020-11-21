@@ -7,6 +7,7 @@ $(document).ready(function(){
     $("#Pie").html("<p>&copy;<strong>Desarrollado</strong> por <a target='_blank' href='https://github.com/McChama'>Emiliano Vázquez Banda</a></p>");
 
     /* CSS */
+    $("li").addClass("py-1");
     $("li:nth-child(odd)").css("background","rgba(195, 195, 193, 1)");
 
     /* Eventos */
